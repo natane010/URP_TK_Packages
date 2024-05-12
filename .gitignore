@@ -9,7 +9,8 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/[Pp]ackages/
+/[Pp]ackages/manifest.json
+/[Pp]ackages/packages-lock.json
 /[Uu]ser[Ss]ettings/
 /[Pp]roject[Ss]ettings/
 
