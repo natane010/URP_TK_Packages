@@ -1,0 +1,7 @@
+{
+  "name": "tk.packages.unity",
+  "version": "1.0.0",
+  "displayName": "3D Custom URP Packages",
+  "description": "This is a Unity Custom package",
+  "unity": "2022.3"
+}
