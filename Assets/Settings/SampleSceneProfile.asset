@@ -91,6 +91,51 @@ MonoBehaviour:
   intensity:
     m_OverrideState: 1
     m_Value: 0.031
+--- !u!114 &-5181098288648183305
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2981d8b0d2c9c84ca6997e6fb03fa96, type: 3}
+  m_Name: BokehBlur
+  m_EditorClassIdentifier: 
+  active: 0
+  BlurRadius:
+    m_OverrideState: 1
+    m_Value: 2.97
+  Iteration:
+    m_OverrideState: 1
+    m_Value: 29
+  RTDownScaling:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &-3201348820003188082
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: BokehBlur
+  m_EditorClassIdentifier: TKPackages.SRP.Runtime.Effect::TestBlur/BokehBlur
+  active: 1
+  <displayName>k__BackingField: 
+  BlurRadius:
+    m_OverrideState: 0
+    m_Value: 0
+  Iteration:
+    m_OverrideState: 0
+    m_Value: 32
+  RTDownScaling:
+    m_OverrideState: 0
+    m_Value: 2
 --- !u!114 &-2677201871541874256
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -104,6 +149,7 @@ MonoBehaviour:
   m_Name: BokehBlur
   m_EditorClassIdentifier: TKPackages.SRP.Runtime.Effect::TestBlur/BokehBlur
   active: 1
+  <displayName>k__BackingField: 
   BlurRadius:
     m_OverrideState: 1
     m_Value: 3
@@ -113,6 +159,29 @@ MonoBehaviour:
   RTDownScaling:
     m_OverrideState: 1
     m_Value: 9.97
+--- !u!114 &-1691887860141121138
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a456f2fb94a43144893127bc794a17d, type: 3}
+  m_Name: TestBokehBlur
+  m_EditorClassIdentifier: 
+  active: 1
+  <displayName>k__BackingField: 
+  BlurRadius:
+    m_OverrideState: 1
+    m_Value: 3
+  Iteration:
+    m_OverrideState: 1
+    m_Value: 128
+  RTDownScaling:
+    m_OverrideState: 1
+    m_Value: 10
 --- !u!114 &-977648844491115019
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -126,6 +195,7 @@ MonoBehaviour:
   m_Name: Diffusion
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   BlurRadius:
     m_OverrideState: 0
     m_Value: 0
@@ -158,8 +228,7 @@ MonoBehaviour:
   - {fileID: -7893295128165547882}
   - {fileID: -7011558710299706105}
   - {fileID: -6163640277102803241}
-  - {fileID: 2145317245702164733}
-  - {fileID: -2677201871541874256}
+  - {fileID: -5181098288648183305}
 --- !u!114 &849379129802519247
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -200,7 +269,7 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 0
     m_Value: 1000
---- !u!114 &2145317245702164733
+--- !u!114 &4186671921678538708
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,19 +281,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a59027b402f906c42959f945c669acd6, type: 3}
   m_Name: Diffusion
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
+  <displayName>k__BackingField: 
   BlurRadius:
     m_OverrideState: 1
-    m_Value: 0.601
+    m_Value: 1.7
   Contrast:
     m_OverrideState: 1
-    m_Value: 0.538
+    m_Value: 1.41
   Intensity:
     m_OverrideState: 1
-    m_Value: 0.267
+    m_Value: 0.386
   Iteration:
     m_OverrideState: 1
-    m_Value: 49
+    m_Value: 32
   RTDownScaling:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 2

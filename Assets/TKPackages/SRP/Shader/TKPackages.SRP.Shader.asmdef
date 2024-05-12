@@ -1,0 +1,19 @@
+{
+    "name": "TKPackages.SRP.Shader",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ab67fb10353d84448ac887a7367cbda8",
+        "GUID:b4517ec124862cb4bb3b8b27d72843a6",
+        "GUID:46a67ded66a63de48b9329c593fc08de",
+        "GUID:de1079f91ae5b43499b7c7e4f1269884"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

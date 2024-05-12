@@ -1,17 +1,16 @@
-#if URP_SETTINGS_PJ
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
 namespace TKPackages.SRP.Runtime.Base
 {
-    public abstract class PostProcessRendererBase<T> : IPostProcessRenderer where T : PostProcessSettingsBase
+    public abstract class PostProcessRendererBase<T> : IPostProcessRenderer where T : PostProcessSettingBase
     {
         public abstract string ProfilerTag { get; }
         protected abstract string ShaderName { get; }
 
         protected T m_Settings;
-        protected MaterialLib m_BlitMaterial;
+        protected Material m_BlitMaterial;
         private bool m_IsEnable;
 
         public virtual void Init()
@@ -24,8 +23,7 @@ namespace TKPackages.SRP.Runtime.Base
             }
 
             m_Settings = VolumeManager.instance.stack.GetComponent<T>();
-            //m_BlitMaterial = CoreUtils.CreateEngineMaterial(shader);
-            m_BlitMaterial = new MaterialLib(shader);
+            m_BlitMaterial = CoreUtils.CreateEngineMaterial(shader);
             SetEnable();
         }
 
@@ -77,8 +75,7 @@ namespace TKPackages.SRP.Runtime.Base
 
             if (m_BlitMaterial != null)
             {
-                //CoreUtils.Destroy(m_BlitMaterial);
-                m_BlitMaterial.Cleanup();
+                CoreUtils.Destroy(m_BlitMaterial);
                 m_BlitMaterial = null;
             }
             m_Settings = null;
@@ -101,4 +98,3 @@ namespace TKPackages.SRP.Runtime.Base
 
     }
 }
-#endif

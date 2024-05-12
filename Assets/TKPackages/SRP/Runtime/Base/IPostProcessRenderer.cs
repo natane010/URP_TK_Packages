@@ -1,4 +1,3 @@
-#if URP_SETTINGS_PJ
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
@@ -13,4 +12,3 @@ namespace TKPackages.SRP.Runtime.Base
         void Dispose();
     }
 }
-#endif
