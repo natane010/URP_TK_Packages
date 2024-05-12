@@ -1,0 +1,20 @@
+{
+    "name": "TKPackages.SRP.Runtime.Utility",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "URP_SETTINGS_PJ"
+        }
+    ],
+    "noEngineReferences": false
+}

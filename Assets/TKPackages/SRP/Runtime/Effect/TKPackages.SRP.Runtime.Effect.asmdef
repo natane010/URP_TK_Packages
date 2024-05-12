@@ -1,0 +1,25 @@
+{
+    "name": "TKPackages.SRP.Runtime.Effect",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d190795864cf42d4bb240aa2e1b013ab",
+        "GUID:9cbe6364fca538f4ba27cf9b5bda8aeb",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "URP_SETTINGS_PJ"
+        }
+    ],
+    "noEngineReferences": false
+}
